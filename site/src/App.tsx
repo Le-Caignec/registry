@@ -100,7 +100,7 @@ import { useEffect, useState } from 'react';
 
         // Fetch the registry index
         const registryResponse = await fetch(
-          'https://raw.githubusercontent.com/elizaos-plugins/registry/main/index.json'
+          'https://raw.githubusercontent.com/Le-Caignec/registry/main/index.json'
         );
         
         if (!registryResponse.ok) {
